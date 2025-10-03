@@ -13,13 +13,13 @@ import urllib.request
 PICON_DIR = "/usr/share/enigma2/picon/"
 PLUGIN_DIR = "/usr/lib/enigma2/python/Plugins/Extensions/Piconupdater/"
 LOCAL_PICON_VERSION_FILE = os.path.join(PLUGIN_DIR, "version.txt")
-REMOTE_PICON_VERSION_URL = "http://semtexnet.unas.cz:8080/picon/version.txt"
-PICON_ZIP_URL = "http://semtexnet.unas.cz:8080/picon/picon.zip"
+REMOTE_PICON_VERSION_URL = "https://raw.githubusercontent.com/semtexnet-cz/Picon-Updater/main/version.txt"
+PICON_ZIP_URL = "https://raw.githubusercontent.com/semtexnet-cz/Picon-Updater/main/picon.zip"
 TMP_PICON_ZIP = "/tmp/picon.zip"
 
 LOCAL_PLUGIN_VERSION_FILE = os.path.join(PLUGIN_DIR, "plugin_version.txt")
-REMOTE_PLUGIN_VERSION_URL = "http://semtexnet.unas.cz:8080/picon/plugin_version.txt"
-PLUGIN_ZIP_URL = "http://semtexnet.unas.cz:8080/picon/plugin.zip"
+REMOTE_PLUGIN_VERSION_URL = "https://raw.githubusercontent.com/semtexnet-cz/Picon-Updater/main/plugin_version.txt"
+PLUGIN_ZIP_URL = "https://raw.githubusercontent.com/semtexnet-cz/Picon-Updater/main/plugin.zip"
 TMP_PLUGIN_ZIP = "/tmp/plugin.zip"
 
 
