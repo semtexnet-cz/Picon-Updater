@@ -197,7 +197,7 @@ def main(session, **kwargs):
 def Plugins(path, **kwargs):
     return [PluginDescriptor(
         name="Picon Updater",
-        description="Aktualizace piconů a pluginu",
+        description="Aktualizace picon - obrázků kanálů",
         where=PluginDescriptor.WHERE_PLUGINMENU,
         icon="plugin.png",
         fnc=main
