@@ -197,7 +197,7 @@ def main(session, **kwargs):
 def Plugins(path, **kwargs):
     return [PluginDescriptor(
         name="Picon Updater",
-        description="Aktualizace picon - obrázků kanálů",
+        description="Aktualizace picon - obrázků kanálů pro Skylink (M7 Group)",
         where=PluginDescriptor.WHERE_PLUGINMENU,
         icon="plugin.png",
         fnc=main
