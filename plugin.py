@@ -14,7 +14,7 @@ PICON_DIR = "/usr/share/enigma2/picon/"
 PLUGIN_DIR = "/usr/lib/enigma2/python/Plugins/Extensions/Piconupdater/"
 LOCAL_PICON_VERSION_FILE = os.path.join(PLUGIN_DIR, "version.txt")
 REMOTE_PICON_VERSION_URL = "https://raw.githubusercontent.com/semtexnet-cz/Picon-Updater/main/version.txt"
-PICON_ZIP_URL = "https://raw.githubusercontent.com/semtexnet-cz/Picon-Updater/main/picon.zip"
+PICON_ZIP_URL = "https://raw.githubusercontent.com/semtexnet-cz/Picon-Updater/main/picon/picon.zip"
 TMP_PICON_ZIP = "/tmp/picon.zip"
 
 LOCAL_PLUGIN_VERSION_FILE = os.path.join(PLUGIN_DIR, "plugin_version.txt")
